@@ -32,7 +32,7 @@ class ContrivedFuncCoverageTests(unittest.TestCase):
         self.assertTrue(contrived_func(val))
 
     def test_c7(self):
-        val = 361
+        val = 74
         self.assertFalse(contrived_func(val))
 
 
