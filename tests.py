@@ -29,3 +29,6 @@ class ContrivedFuncCoverageTests(unittest.TestCase):
     def test_c6(self):
         val = 250
         self.assertTrue(contrived_func(val))
+
+if __name__ == "__main__":
+    unittest.main()
