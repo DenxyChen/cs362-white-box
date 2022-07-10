@@ -32,8 +32,16 @@ class ContrivedFuncCoverageTests(unittest.TestCase):
         self.assertTrue(contrived_func(val))
 
     def test_c7(self):
-        val = 151
+        val = 76
         self.assertFalse(contrived_func(val))
+
+    def test_c8(self):
+        val = 80
+        self.assertTrue(contrived_func(val))
+
+    def test_c9(self):
+        val = 75
+        self.assertTrue(contrived_func(val))
 
 
 if __name__ == "__main__":
