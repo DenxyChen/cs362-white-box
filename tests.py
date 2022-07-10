@@ -5,6 +5,7 @@
 from contrived_func import contrived_func
 import unittest
 
+
 class ContrivedFuncCoverageTests(unittest.TestCase):
     def test_c1(self):
         val = 125
@@ -29,6 +30,11 @@ class ContrivedFuncCoverageTests(unittest.TestCase):
     def test_c6(self):
         val = 250
         self.assertTrue(contrived_func(val))
+
+    def test_c7(self):
+        val = 361
+        self.assertFalse(contrived_func(val))
+
 
 if __name__ == "__main__":
     unittest.main()
